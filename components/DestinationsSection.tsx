@@ -21,7 +21,7 @@ export function DestinationsSection() {
         </div>
 
         <Link
-          href="/#destinations"
+          href="/destinations"
           className="hidden items-center gap-1 text-sm font-semibold text-foreground hover:text-accent sm:flex"
         >
           مشاهده همه
@@ -87,3 +87,4 @@ function DestinationCard({
     </Link>
   );
 }
+
