@@ -3,41 +3,61 @@
 @tailwind utilities;
 
 @layer base {
-  :root {
-    --background: 40 33% 98%;
-    --foreground: 222 47% 11%;
-    --card: 0 0% 100%;
-    --card-foreground: 222 47% 11%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 222 47% 11%;
-    --primary: 222 47% 11%;
-    --primary-foreground: 40 33% 98%;
-    --secondary: 40 33% 95%;
-    --secondary-foreground: 222 47% 11%;
-    --muted: 40 20% 94%;
-    --muted-foreground: 222 9% 45%;
-    --accent: 172 65% 38%;
-    --accent-foreground: 0 0% 100%;
-    --destructive: 0 72% 51%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 40 20% 90%;
-    --input: 40 20% 90%;
-    --ring: 172 65% 38%;
-    --radius: 0.75rem;
-  }
+
+:root {
+  --background: 210 100% 97%;
+  --foreground: 222 47% 11%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 222 47% 11%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 222 47% 11%;
+
+  --primary: 217 95% 55%;
+  --primary-foreground: 0 0% 100%;
+
+  --secondary: 190 90% 92%;
+  --secondary-foreground: 195 90% 28%;
+
+  --muted: 210 35% 93%;
+  --muted-foreground: 220 12% 42%;
+
+  --accent: 180 85% 42%;
+  --accent-foreground: 222 47% 11%;
+
+  --destructive: 0 72% 51%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 210 30% 87%;
+  --input: 210 30% 87%;
+  --ring: 217 95% 55%;
+
+  --radius: 0.75rem;
+}
 }
 
 @layer base {
   * {
     @apply border-border;
   }
-  body {
-    @apply bg-background text-foreground antialiased;
-    font-feature-settings: "ss01", "cv01";
-  }
+
+  
   html {
     scroll-behavior: smooth;
   }
+  
+body {
+  background:
+    radial-gradient(ellipse at 10% 10%, rgba(29, 111, 242, 0.20), transparent 40%),
+    radial-gradient(ellipse at 90% 30%, rgba(16, 199, 199, 0.22), transparent 40%),
+    radial-gradient(ellipse at 50% 90%, rgba(29, 111, 242, 0.14), transparent 45%),
+    #f0f8ff;
+
+  color: hsl(var(--foreground));
+  min-height: 100vh;
+}
+
 }
 
 @layer utilities {

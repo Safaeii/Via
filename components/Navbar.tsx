@@ -1,5 +1,5 @@
 import { Compass } from 'lucide-react';
-
+import Link from 'next/link';
 export function Navbar() {
   const links = ['مقاصد', 'اقامتگاه‌ها', 'تجربه‌ها', 'درباره ما'];
 
@@ -18,7 +18,7 @@ export function Navbar() {
             <li key={link}>
               <a
                 href="#"
-                className="text-sm font-medium text-white/80 transition-colors hover:text-white"
+ className="text-sm font-semibold text-slate-800 transition-colors hover:text-blue-600"
               >
                 {link}
               </a>
@@ -26,9 +26,11 @@ export function Navbar() {
           ))}
         </ul>
 
-        <button className="rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-foreground shadow-lg shadow-black/5 transition-transform hover:scale-105">
-          ورود
-        </button>
+        <Link 
+        href="/login"
+        className="rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-foreground shadow-lg shadow-black/5 transition-transform hover:scale-105">
+          ورود 
+        </Link>
       </nav>
     </header>
   );

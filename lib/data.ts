@@ -38,7 +38,7 @@ export const destinations: Destination[] = [
     name: 'سانتورینی',
     country: 'یونان',
     image:
-      'https://images.pexels.com/photos/28000949/pexels-photo-28000949.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      '/images/Boracay_Island_-_Sunset.jpg',
     stays: 184,
     tag: 'جزیره‌ای',
   },
@@ -47,7 +47,7 @@ export const destinations: Destination[] = [
     name: 'کیوتو',
     country: 'ژاپن',
     image:
-      'https://images.pexels.com/photos/35076911/pexels-photo-35076911.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      '/images/800px-Kinkaku3402CBcropped.jpg',
     stays: 126,
     tag: 'فرهنگی',
   },
@@ -56,7 +56,7 @@ export const destinations: Destination[] = [
     name: 'پاریس',
     country: 'فرانسه',
     image:
-      'https://images.pexels.com/photos/17501700/pexels-photo-17501700.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+   '/images/paeis.jpg',
     stays: 312,
     tag: 'شهری',
   },
@@ -65,7 +65,7 @@ export const destinations: Destination[] = [
     name: 'بالی',
     country: 'اندونزی',
     image:
-      'https://images.pexels.com/photos/35428411/pexels-photo-35428411.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+'/images/Wilkes_Island_Wake_Atoll_(170410).jpg',
     stays: 247,
     tag: 'حاره‌ای',
   },
@@ -74,7 +74,7 @@ export const destinations: Destination[] = [
     name: 'دبی',
     country: 'امارات',
     image:
-      'https://images.pexels.com/photos/28350360/pexels-photo-28350360.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    '/images/Burj-Al-Arab-Hotel-Dubai-United-Arab-Emirates1.jpg',
     stays: 198,
     tag: 'شهری',
   },
@@ -83,7 +83,7 @@ export const destinations: Destination[] = [
     name: 'کوه‌های آلپ',
     country: 'سوئیس',
     image:
-      'https://images.pexels.com/photos/21041270/pexels-photo-21041270.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+     '/images/2281000.jpg',
     stays: 92,
     tag: 'کوهستانی',
   },
@@ -95,7 +95,7 @@ export const hotels: Hotel[] = [
     name: 'اقامتگاه صخره‌ای آبی',
     location: 'سانتورینی، یونان',
     image:
-      'https://images.pexels.com/photos/6434592/pexels-photo-6434592.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      '/images/Marble_Rocks_Jabalpur.jpg',
     price: 3200000,
     rating: 4.9,
     reviews: 412,
@@ -106,7 +106,7 @@ export const hotels: Hotel[] = [
     name: 'مسافرخانه باغ ساکورا',
     location: 'کیوتو، ژاپن',
     image:
-      'https://images.pexels.com/photos/6466496/pexels-photo-6466496.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      '/images/img-momijiya-hotel-6168289-kyoto-27.jpeg',
     price: 2100000,
     rating: 4.8,
     reviews: 358,
@@ -117,7 +117,7 @@ export const hotels: Hotel[] = [
     name: 'میزون لومیر',
     location: 'پاریس، فرانسه',
     image:
-      'https://images.pexels.com/photos/7507131/pexels-photo-7507131.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+         '/images/61b61741-7076-44bb-bbd9-4020e991d765.jpg',
     price: 2850000,
     rating: 4.7,
     reviews: 521,
@@ -128,7 +128,7 @@ export const hotels: Hotel[] = [
     name: 'ویلای تگالالانگ',
     location: 'بالی، اندونزی',
     image:
-      'https://images.pexels.com/photos/2736384/pexels-photo-2736384.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+        '/images/46da2fb6e58f09fdec09189b.jpg',
     price: 1750000,
     rating: 4.9,
     reviews: 289,
@@ -139,7 +139,7 @@ export const hotels: Hotel[] = [
     name: 'سوئیت‌های آسمان مارینا',
     location: 'دبی، امارات',
     image:
-      'https://images.pexels.com/photos/97083/pexels-photo-97083.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+       '/images/An-aerial-view-of-the-Lower-and-Upper-Skyloop-1_credit-to-Safdie-Architects.jpg',
     price: 4100000,
     rating: 4.8,
     reviews: 673,
@@ -150,7 +150,7 @@ export const hotels: Hotel[] = [
     name: 'لج آلپن‌روز',
     location: 'کوه‌های آلپ، سوئیس',
     image:
-      'https://images.pexels.com/photos/8082217/pexels-photo-8082217.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      '/images/235fa7c735e3f05b5ea022cf.jpg',
     price: 2950000,
     rating: 4.9,
     reviews: 198,
@@ -165,7 +165,7 @@ export const experiences: Experience[] = [
     description:
       'بالای لاگون‌های شفاف در یک ویلا روی آب بیدار شوید و آرامش را تجربه کنید.',
     image:
-      'https://images.pexels.com/photos/34260951/pexels-photo-34260951.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+        '/images/Marble_Rocks_Jabalpur.jpg',
     icon: 'Waves',
   },
   {
@@ -174,7 +174,7 @@ export const experiences: Experience[] = [
     description:
       'کفش‌های خود را ببندید و با راهنمایان محلی در مسیرهای زیبا قدم بزنید.',
     image:
-      'https://images.pexels.com/photos/3871355/pexels-photo-3871355.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+         '/images/Marble_Rocks_Jabalpur.jpg',
     icon: 'Mountain',
   },
   {
@@ -183,7 +183,7 @@ export const experiences: Experience[] = [
     description:
       'به باغ‌های مرجانی رنگارنگ شیرجه بزنید و زندگی دریایی گرمسیری را از نزدیک ببینید.',
     image:
-      'https://images.pexels.com/photos/7001749/pexels-photo-7001749.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+        '/images/Marble_Rocks_Jabalpur.jpg',
     icon: 'Fish',
   },
   {
@@ -192,7 +192,7 @@ export const experiences: Experience[] = [
     description:
       'منوهای تستینگ سرآشپزهای برنده را در فضاهایی خیره‌کننده نوش جان کنید.',
     image:
-      'https://images.pexels.com/photos/7627408/pexels-photo-7627408.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+          '/images/Marble_Rocks_Jabalpur.jpg',
     icon: 'UtensilsCrossed',
   },
   {
@@ -201,7 +201,7 @@ export const experiences: Experience[] = [
     description:
       'با آیین‌های اسپا، جلسات یوگا و لحظات آرامش‌بخش ذهنی، انرژی خود را دوباره به‌دست آورید.',
     image:
-      'https://images.pexels.com/photos/6187418/pexels-photo-6187418.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+         '/images/Marble_Rocks_Jabalpur.jpg',
     icon: 'Flower2',
   },
 ];
