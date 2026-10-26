@@ -1,37 +1,59 @@
-import { Compass } from 'lucide-react';
-import Link from 'next/link';
+
+
+
+
+
+import { Compass } from "lucide-react";
+import Link from "next/link";
+
 export function Navbar() {
-  const links = ['مقاصد', 'اقامتگاه‌ها', 'تجربه‌ها', 'درباره ما'];
+  const links = [
+    { title: "مقاصد", href: "/#destinations" },
+    { title: "اقامتگاه‌ها", href: "/#Hotels" },
+    { title: "تجربه‌ها", href: "/#experiences" },
+    { title: "درباره ما", href: "/about" },
+  ];
 
   return (
     <header className="absolute inset-x-0 top-0 z-30">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6">
-        <a href="#" className="flex items-center gap-2 text-foreground">
+        {/* لوگو */}
+        <Link
+          href="/"
+          className="flex items-center gap-2 text-foreground"
+        >
           <span className="flex h-9 w-9 items-center justify-center rounded-xl bg-accent text-accent-foreground">
             <Compass className="h-5 w-5" />
           </span>
-          <span className="text-xl font-semibold tracking-tight">ویا</span>
-        </a>
 
+          <span className="text-xl font-semibold tracking-tight">
+            ویا
+          </span>
+        </Link>
+
+        {/* لینک‌های منو */}
         <ul className="hidden items-center gap-8 md:flex">
           {links.map((link) => (
-            <li key={link}>
-              <a
-                href="#"
- className="text-sm font-semibold text-slate-800 transition-colors hover:text-blue-600"
+            <li key={link.href}>
+              <Link
+                href={link.href}
+                className="text-sm font-semibold text-slate-800 transition-colors hover:text-blue-600"
               >
-                {link}
-              </a>
+                {link.title}
+              </Link>
             </li>
           ))}
         </ul>
 
-        <Link 
-        href="/login"
-        className="rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-foreground shadow-lg shadow-black/5 transition-transform hover:scale-105">
-          ورود 
+        {/* دکمه ورود */}
+        <Link
+          href="/login"
+          className="rounded-full bg-white px-5 py-2.5 text-sm font-semibold text-foreground shadow-lg shadow-black/5 transition-transform hover:scale-105"
+        >
+          ورود
         </Link>
       </nav>
     </header>
   );
 }
+

@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge";
 
 export function HotelsSection() {
   return (
-    <section id="stays" className="bg-secondary/40 py-20">
+    <section id="Hotels"  className="bg-secondary/40 py-20">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-10 text-center">
           <p className="mb-2 text-sm font-semibold tracking-wider text-accent">

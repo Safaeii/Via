@@ -1,36 +1,3 @@
-// import { Badge } from '@/components/ui/badge';
-
-// export function Hero() {
-//   return (
-//     <section className="relative min-h-[92vh] overflow-hidden">
-//       <div
-//         className="absolute inset-0 bg-cover bg-center"
-//         style={{
-//           backgroundImage:
-//             'url(../public/images/Boracay_Island_-_Sunset.jpg)',
-//         }}
-        
-//       />
-    
-//       <div className="absolute inset-0 bg-gradient-to-b from-black/55 via-black/25 to-black/65" />
-//       <div className="relative z-10 mx-auto flex min-h-[92vh] max-w-7xl flex-col items-start justify-center px-6 pt-28 pb-16">
-//         <Badge className="mb-5 border-white/30 bg-white/15 text-white backdrop-blur">
-//           بیش از ۱۲۰ مقصد دست‌چین‌شده برای ۲۰۲۶
-//         </Badge>
-
-//         <h1 className="max-w-3xl text-balance font-display text-5xl font-semibold leading-[1.1] text-white sm:text-6xl lg:text-7xl">
-//           جایی را پیدا کنید که همیشه به یادش خواهید ماند.
-//         </h1>
-
-//         <p className="mt-5 max-w-xl text-lg leading-relaxed text-white/85">
-//           اقامتگاه‌های دست‌چین‌شده و تجربه‌های فراموش‌نشدنی را در زیباترین گوشه‌های
-//           جهان کشف کنید — همه در یک جستجو.
-//         </p>
-//       </div>
-//     </section>
-//   );
-// }
-
 
 
 import { Badge } from "@/components/ui/badge";
@@ -39,29 +6,30 @@ import CloudBackground from "@/components/CloudBackground";
 export function Hero() {
   return (
     <section className="relative isolate min-h-[92vh] overflow-hidden">
-
       {/* Animated Background */}
       <CloudBackground />
 
       {/* Dark Overlay */}
-      <div className="pointer-events-none absolute inset-0 z-0 bg-gradient-to-b from-black/55 via-black/25 to-black/65" />
+      <div className="pointer-events-none absolute inset-0 z-0 bg-gradient-to-b from-slate-950/45 via-slate-900/20 to-slate-950/60" />
 
       {/* Hero Content */}
-      <div className="relative z-10 mx-auto flex min-h-[92vh] max-w-7xl flex-col items-start justify-center px-6 pt-28 pb-16">
-
-        <Badge className="mb-5 border-white/30 bg-white/15 text-white backdrop-blur">
-          بیش از ۱۲۰ مقصد دست‌چین‌شده برای ۲۰۲۶
+      <div className="relative z-10 mx-auto flex min-h-[92vh] max-w-4xl flex-col items-center justify-center px-6 pb-16 pt-28 text-center">
+        <Badge className="mb-5 border-white/25 bg-white/10 px-4 py-1.5 text-emerald-100 backdrop-blur-md">
+          ویا؛ آغاز تجربه‌های تازه
         </Badge>
 
-        <h1 className="max-w-3xl text-balance font-display text-5xl font-semibold leading-[1.1] text-white sm:text-6xl lg:text-7xl">
-          جایی را پیدا کنید که همیشه به یادش خواهید ماند.
+        <h1 className="max-w-3xl text-balance font-display text-3xl font-bold leading-relaxed text-white drop-shadow-lg sm:text-4xl lg:text-5xl">
+          سفر بعدی‌ات،
+          <span className="block text-emerald-200">
+            داستانی تازه برای زندگی
+          </span>
         </h1>
 
-        <p className="mt-5 max-w-xl text-lg leading-relaxed text-white/85">
-          اقامتگاه‌های دست‌چین‌شده و تجربه‌های فراموش‌نشدنی را در زیباترین گوشه‌های
-          جهان کشف کنید — همه در یک جستجو.
+        <p className="mt-5 max-w-2xl text-sm leading-8 text-white/90 drop-shadow sm:text-base sm:leading-9">
+          مقصدهای الهام‌بخش را کشف کن، اقامتگاه دلخواهت را پیدا کن و برای
+          تجربه‌ای متفاوت آماده شو. با ویا، هر سفر می‌تواند آغاز یک خاطره
+          ماندگار باشد.
         </p>
-
       </div>
     </section>
   );

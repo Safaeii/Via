@@ -165,7 +165,7 @@ export const experiences: Experience[] = [
     description:
       'بالای لاگون‌های شفاف در یک ویلا روی آب بیدار شوید و آرامش را تجربه کنید.',
     image:
-        '/images/Marble_Rocks_Jabalpur.jpg',
+        '/images/هتل ترنج کیش.jpg',
     icon: 'Waves',
   },
   {
@@ -174,7 +174,7 @@ export const experiences: Experience[] = [
     description:
       'کفش‌های خود را ببندید و با راهنمایان محلی در مسیرهای زیبا قدم بزنید.',
     image:
-         '/images/Marble_Rocks_Jabalpur.jpg',
+         '/images/images.jpeg',
     icon: 'Mountain',
   },
   {
@@ -183,7 +183,7 @@ export const experiences: Experience[] = [
     description:
       'به باغ‌های مرجانی رنگارنگ شیرجه بزنید و زندگی دریایی گرمسیری را از نزدیک ببینید.',
     image:
-        '/images/Marble_Rocks_Jabalpur.jpg',
+        '/images/images11.jpeg',
     icon: 'Fish',
   },
   {
@@ -192,7 +192,7 @@ export const experiences: Experience[] = [
     description:
       'منوهای تستینگ سرآشپزهای برنده را در فضاهایی خیره‌کننده نوش جان کنید.',
     image:
-          '/images/Marble_Rocks_Jabalpur.jpg',
+          '/images/images12.jpeg',
     icon: 'UtensilsCrossed',
   },
   {
@@ -201,7 +201,7 @@ export const experiences: Experience[] = [
     description:
       'با آیین‌های اسپا، جلسات یوگا و لحظات آرامش‌بخش ذهنی، انرژی خود را دوباره به‌دست آورید.',
     image:
-         '/images/Marble_Rocks_Jabalpur.jpg',
+         '/images/images22.jpeg',
     icon: 'Flower2',
   },
 ];
