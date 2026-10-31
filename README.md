@@ -1,26 +1,17 @@
 # ✈️ Via — Discover Your Next Journey
-## 📸 Screenshots | تصاویر پروژه
 
-### Home Page
-![Via Homepage](public/screenshots/home.png)
+**Via** is a modern, responsive travel website built to help users discover beautiful destinations and explore unique travel experiences.
 
-### Login Page
-![Via Login](public/screenshots/login.png)
-
-### Sign Up Page
-![Via Sign Up](public/screenshots/DestinationsSection.png)
-**Via** is a modern, responsive travel website designed to help users discover inspiring destinations and explore unique travel experiences.
-
-ویا یک وب‌سایت گردشگری مدرن است که با هدف معرفی مقصدهای جذاب و تجربه‌های متفاوت سفر طراحی شده است.
+ویا یک وب‌سایت گردشگری مدرن و واکنش‌گراست که با هدف معرفی مقصدهای جذاب و تجربه‌های متفاوت سفر طراحی شده است.
 
 ## ✨ Features | امکانات
 
-- 🎨 Modern and clean UI
+- 🎨 Modern and clean user interface
 - 📱 Responsive design for desktop, tablet, and mobile
 - 🔐 Login and registration pages
 - 🌍 Destination discovery
-- 🏨 Accommodation section
-- 💫 Animated background and interactive visual elements
+- 🏨 Hotels and accommodation sections
+- 💫 Animated backgrounds and interactive visual elements
 - 🇮🇷 Persian language support and RTL layout
 
 ## 🛠️ Tech Stack | تکنولوژی‌ها
@@ -33,28 +24,30 @@
 
 ## 📸 Screenshots | تصاویر پروژه
 
-### Home Page
-<!-- Add your homepage screenshot here -->
-<!-- ![Via Homepage](public/screenshots/home.png) -->
+### 🏠 Home Page
 
-### Login Page
-<!-- ![Via Login](public/screenshots/login.png) -->
+![Via Homepage](public/screenshots/home.png)
 
-### Sign Up Page
-<!-- ![Via Sign Up](public/screenshots/signup.png) -->
+### 🔐 Login Page
+
+![Via Login](public/screenshots/login.png)
+
+### 📝 Sign Up Page
+
+<!-- بعد از قرار دادن اسکرین‌شات ثبت‌نام، مسیر تصویر را اینجا اضافه کن. -->
 
 ## 🚀 Getting Started | اجرای پروژه
 
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/Safaeii/Via.git
 ```
 
 ### 2. Navigate to the project directory
 
 ```bash
-cd projectVia
+cd Via
 ```
 
 ### 3. Install dependencies
@@ -69,12 +62,16 @@ npm install
 npm run dev
 ```
 
-Open `http://localhost:3000` in your browser.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 👩‍💻 Developer
 
-Developed by **Ehsan Safaeii**.
+**Frontend Developer**
+
+Interested in building modern web applications with React, Next.js, TypeScript, and Tailwind CSS.
+
+🔗 [GitHub Profile](https://github.com/Safaeii)
 
 ---
 
-*Via — Every journey begins with a discovery.*
+⭐ If you find this project interesting, feel free to explore the repository!
