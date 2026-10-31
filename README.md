@@ -1,8 +1,22 @@
 # ✈️ Via — Discover Your Next Journey
 
-**Via** is a modern, responsive travel website built to help users discover beautiful destinations and explore unique travel experiences.
+<p align="center">
+  <strong>A Modern Travel Website Built with Next.js and TypeScript</strong>
+</p>
 
-ویا یک وب‌سایت گردشگری مدرن و واکنش‌گراست که با هدف معرفی مقصدهای جذاب و تجربه‌های متفاوت سفر طراحی شده است.
+<p align="center">
+  ویا؛ تجربه‌ای متفاوت برای کشف مقصدهای جدید و برنامه‌ریزی سفر
+</p>
+
+---
+
+## 🌍 About the Project | درباره پروژه
+
+**Via** is a modern and responsive travel website designed to help users discover beautiful destinations, explore accommodation options, and experience a visually engaging travel platform.
+
+ویا یک وب‌سایت گردشگری مدرن و واکنش‌گراست که با هدف معرفی مقصدهای جذاب، نمایش امکانات سفر و ایجاد تجربه‌ای زیبا برای کاربران طراحی شده است.
+
+The project focuses on clean UI design, responsive layouts, and an engaging user experience.
 
 ## ✨ Features | امکانات
 
@@ -12,31 +26,37 @@
 - 🌍 Destination discovery
 - 🏨 Hotels and accommodation sections
 - 💫 Animated backgrounds and interactive visual elements
-- 🇮🇷 Persian language support and RTL layout
+- 🇮🇷 Persian language support
+- ↔️ Right-to-left (RTL) layout
+- 🧩 Reusable React components
 
 ## 🛠️ Tech Stack | تکنولوژی‌ها
 
-- Next.js
-- React
-- TypeScript
-- Tailwind CSS
-- HTML & CSS
+- **Next.js** — React framework
+- **React** — Component-based UI development
+- **TypeScript** — Type-safe JavaScript
+- **Tailwind CSS** — Utility-first styling
+- **HTML5**
+- **CSS3**
+- **Lucide React** — Icons
 
 ## 📸 Screenshots | تصاویر پروژه
 
-### 🏠 Home Page
+### 🏠 Home Page | صفحه اصلی
 
 ![Via Homepage](public/screenshots/home.png)
 
-### 🔐 Login Page
+### 🔐 Login Page | صفحه ورود
 
 ![Via Login](public/screenshots/login.png)
 
-### 📝 Sign Up Page
+### 🌍 Destinations Section | بخش مقصدها
 
-<!-- بعد از قرار دادن اسکرین‌شات ثبت‌نام، مسیر تصویر را اینجا اضافه کن. -->
+![Via Destinations](public/screenshots/DestinationsSection.png)
 
 ## 🚀 Getting Started | اجرای پروژه
+
+Follow these steps to run the project locally.
 
 ### 1. Clone the repository
 
@@ -62,15 +82,43 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+### 5. Open the application
 
-## 👩‍💻 Developer
+Visit the following address in your browser:
+
+`http://localhost:3000`
+
+## 📂 Project Structure | ساختار پروژه
+
+```text
+Via/
+├── app/
+├── components/
+├── public/
+│   └── screenshots/
+│       ├── home.png
+│       ├── login.png
+│       └── DestinationsSection.png
+├── package.json
+├── next.config.ts
+└── README.md
+```
+
+*Note: The structure above is illustrative; the actual project may contain additional files and folders.*
+
+## 👩‍💻 Developer | توسعه‌دهنده
 
 **Frontend Developer**
 
-Interested in building modern web applications with React, Next.js, TypeScript, and Tailwind CSS.
+Focused on building modern, responsive web applications with React, Next.js, TypeScript, and Tailwind CSS.
 
-🔗 [GitHub Profile](https://github.com/Safaeii)
+🔗 **GitHub:** [Safaeii](https://github.com/Safaeii)
+
+---
+
+<p align="center">
+  Built with ❤️ using Next.js and TypeScript
+</p>
 
 ---
 
